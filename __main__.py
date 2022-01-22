@@ -12,3 +12,5 @@ while running:
         update()
       if command == "-h":
         help()
+    except IndexError as range:
+      print("Error: No akash command mentioned")
