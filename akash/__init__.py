@@ -1,4 +1,5 @@
 import os
+from vars import *
 
 repo = "https://github.com/IDevilxD/akash"
 rm_cmd = "rm -rf akash"
@@ -22,3 +23,5 @@ def set():
 def update():
   os.system(f"{rm_cmd} && git clone {repo} && cd")
 
+def help():
+  print(help_txt)
