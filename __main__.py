@@ -14,5 +14,10 @@ while running:
         help()
       if command == "-s":
         set()
+      if s_txt[0] == "cd":
+        try:
+          path = s_txt[1]
+        except IndexError:
+          h_home()
     except IndexError as range:
       print("Error: No akash command mentioned")
