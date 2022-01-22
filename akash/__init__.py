@@ -25,3 +25,6 @@ def update():
 
 def help():
   print(help_txt)
+
+def clear():
+  os.system("clear")
