@@ -16,8 +16,10 @@ while running:
         set()
       if s_txt[0] == "cd":
         try:
-          path = s_txt[1]
+          path = s_txt[1:10000]
+          print(path)
+          cd(path)
         except IndexError:
-          h_home()
+          m_home()
     except IndexError as range:
       print("Error: No akash command mentioned")
