@@ -1,5 +1,5 @@
 import os
-from vars import *
+from .vars import *
 
 repo = "https://github.com/IDevilxD/akash"
 rm_cmd = "rm -rf akash"
