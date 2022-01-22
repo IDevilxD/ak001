@@ -1,2 +1,2 @@
 import os
-from . import *
+from akash import *
