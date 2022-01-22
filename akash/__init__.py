@@ -16,5 +16,3 @@ def set():
   m_home()
   os.system("pip install -r requirements.txt")
 
-def stop():
-  break
