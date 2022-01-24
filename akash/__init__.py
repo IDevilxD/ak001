@@ -28,3 +28,6 @@ def help():
 
 def clear():
   os.system("clear")
+
+def pwd():
+  os.system("pwd")
