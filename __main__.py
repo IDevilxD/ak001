@@ -10,6 +10,11 @@ while running:
       command = s_txt[1]
       if command == "-u":
         update()
+      if command == "-g":
+        link = input("Enter target name: ")
+        fname = input("Enter a name: ")
+        gett()
+        print("You Can get this websites code in /data/data/com.termux/files/home/akash/websites/{fname}.txt")
       if command == "-h":
         help()
       if command == "-s":
