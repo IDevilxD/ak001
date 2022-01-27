@@ -36,6 +36,6 @@ def pwd():
   os.system("pwd")
 
 def gett(link,fname):
-  raw = r.get(link)
+  raw = r.get(link).text
   file = open("/data/data/com.termux/files/home/akash/websites/{fname}.txt","w")
   file.write(raw)
