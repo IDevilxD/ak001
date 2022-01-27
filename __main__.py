@@ -13,7 +13,7 @@ while running:
       if command == "-g":
         link = input("Enter target name: ")
         fname = input("Enter a name: ")
-        gett()
+        gett(link,fname)
         print("You Can get this websites code in /data/data/com.termux/files/home/akash/websites/{fname}.txt")
       if command == "-h":
         help()
