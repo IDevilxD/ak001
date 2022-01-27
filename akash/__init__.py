@@ -1,4 +1,7 @@
 import os
+import random
+import requests as r
+import datetime as dt
 from .vars import *
 
 repo = "https://github.com/IDevilxD/akash"
@@ -31,3 +34,8 @@ def clear():
 
 def pwd():
   os.system("pwd")
+
+def gett(link,fname):
+  raw = r.get(link)
+  file = open("/data/data/com.termux/files/home/akash/websites/{fname}.txt","w")
+  file.write(raw)
