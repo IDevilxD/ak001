@@ -1,6 +1,6 @@
 help_txt = """
 
-Akash help:-
+Ak001 help:-
 
 -u, --update                         update akash
 -s, --setup                          setup akash
